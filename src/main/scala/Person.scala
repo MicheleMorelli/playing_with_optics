@@ -1,0 +1,5 @@
+case class Person(name: Name, age: Age)
+case class FirstName(value:String)
+case class Surname(value: String)
+case class Name(first:FirstName, surname: Surname)
+case class Age(value: Int)
